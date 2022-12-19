@@ -1,0 +1,146 @@
+.summary {
+    background-color: #101010;
+    height: 100vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.summary-frame {
+    width: 67rem;
+    height: 33.5rem;
+
+    border: 1px solid #444444;
+    border-radius: 64px;
+        
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.summary-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.summary-head {
+    display: flex;
+    justify-content: space-between;
+}
+    
+    .summary-head a {
+        display: flex;
+        align-items: center;
+    }
+
+    .logout-style {
+        width: 1rem;
+        height: 1.5rem;
+        padding-left: 0.5rem
+    }
+
+.table-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+
+    font-size: .625rem;
+}
+
+    .search-bar {
+        width: 243px;
+        height: 27px;
+
+        background: #1E1E1E;
+        border-radius: 18.5px;
+
+        display: flex;
+        align-items: center;
+        padding-inline: .75rem;
+        gap: .75rem;
+    }
+
+        .search-bar input {
+            width: 100%;
+
+            font-size: .625rem;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 300;
+
+            background-color: rgba(0, 0, 0, 0);
+            border: none;
+        }
+        
+            .search-bar input::placeholder {
+                color: #5A5A5A;
+            }
+
+            .search-bar input:focus {
+                outline: none;
+            }
+
+            .search-bar input:-webkit-autofill{
+                /* tricks */
+                transition: background-color 5000s ease-in-out 0s;
+                -webkit-text-fill-color: #1E1E1E;
+            }
+        
+
+    .pagination-bar {
+        display: flex;
+
+    }
+
+.summary-table {
+    height: 19.75rem;
+}
+
+.table-head {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    padding-left: 3.5rem;
+
+    height: 1.5rem;
+
+    border-bottom: 2px solid #62636D;
+}
+
+    .table-head div {
+        font-size: .625rem;
+        color: #636363;
+    }
+
+.table-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    padding-left: 3.5rem;
+
+    height: 3.5rem;
+
+    border-bottom: 2px solid #222222;
+}
+
+    .table-content div {
+        font-size: .75rem;
+        color: #E6E7EB;
+    }
+
+.table__first-coloumn {
+    width: 10rem;
+}
+.table__other-coloumn {
+    width: 11.25rem;
+}
+
+.logo-magnifying-glass {
+    color: #636363;
+}
